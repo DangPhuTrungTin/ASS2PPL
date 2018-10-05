@@ -1,0 +1,8 @@
+
+            procedure foo();
+                var 
+                    a: real;
+                begin
+                    {a := -2+3*4 < 1 ;}
+                end
+                

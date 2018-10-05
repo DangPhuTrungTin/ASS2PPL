@@ -1,0 +1,13 @@
+
+            function check(number: integer):boolean;
+            var _sqrt: real;
+                _floor: integer;
+            begin
+                _sqrt := sqrt(float(number));
+                _floor := floor(_sqrt);
+                if _floor * _floor = number then
+                    return true;
+                else
+                    return false;
+            end
+        

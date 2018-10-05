@@ -1,0 +1,5 @@
+
+procedure foo();
+begin
+    a := a[d][t] := 5;
+end

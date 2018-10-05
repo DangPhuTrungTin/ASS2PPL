@@ -1,0 +1,8 @@
+
+        function f(___:boolean):string;
+        begin
+        end
+        var ___, xyz: array[0 ..1] of real;
+            mnp: integer;
+        {This is a simple program!!!!!!}
+        

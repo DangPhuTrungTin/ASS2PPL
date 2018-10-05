@@ -1,0 +1,12 @@
+
+            {Using loop}
+            function CountLessThan10(x: array [0 .. 100] of integer):integer;
+            var num: integer;
+            begin
+                num := 0;
+                for i := 0 to len(x) - 1 do
+                    if x[i] < 10 then
+                        num := num + 1;
+                return num;
+            end
+        

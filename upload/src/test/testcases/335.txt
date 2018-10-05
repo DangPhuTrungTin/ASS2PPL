@@ -1,0 +1,10 @@
+
+        function Product(y: array [0 .. 100] of real):real;
+        var subArr: array [0 .. 100] of real;
+        begin
+            if len(y) = 1 then
+                return y[0];
+            subArr := subArray(y, 1);
+            return y[0] * Product(subArr);
+        end
+        

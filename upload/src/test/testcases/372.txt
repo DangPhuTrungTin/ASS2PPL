@@ -1,0 +1,35 @@
+
+            function isPair(c, d: string):boolean;
+            begin
+                if (c = "(") and (d = ")") then
+                    return true;
+                if (c = "[") and (d = "]") then
+                    return true;
+                if (c = "{") and (d = "}") then
+                    return true;
+                return false; 
+            end
+
+            function isBalanced(s:string):string;
+            begin
+                c := char();
+                t := stack(char);
+                for i := 0 to len(s) - 1 do
+                begin
+                    if (s[i] = "(") or (s[i] = "[") or (s[i] = "{") then
+                        push(t, s[i]);
+                    else
+                    begin
+                        if empty(t) then
+                            return "NO";
+                        c := pop(t);
+                        if (not isPair(c, s[i])) then
+                            return "NO";
+                    end
+                end
+                if empty(t) then
+                    return "YES";
+                else
+                    return "NO";
+            end
+        

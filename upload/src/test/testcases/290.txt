@@ -1,0 +1,5 @@
+
+procedure foo();
+begin
+    if a = 1 then begin end
+end

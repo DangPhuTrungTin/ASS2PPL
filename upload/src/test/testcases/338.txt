@@ -1,0 +1,10 @@
+
+        function Filter(m: array[0 .. 100] of integer):array [0 .. 100] of integer;
+        var subArr:array[0 .. 100] of integer;
+        begin
+            for i := 0 to len(m) - 1 do
+                if m[i] mod 2 = 1 then
+                    append(subArr, m[i]);
+            return subArr;
+        end
+        

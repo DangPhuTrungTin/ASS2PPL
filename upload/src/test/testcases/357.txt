@@ -1,0 +1,11 @@
+
+            function checkPalind(str: string):boolean;
+            var n: integer;
+            begin
+                n := len(str);
+                for i := 0 to n div 2 - 1 do
+                    if (str[i] <> str[n - 1 - i]) then
+                        return false;
+                return true;
+            end
+        

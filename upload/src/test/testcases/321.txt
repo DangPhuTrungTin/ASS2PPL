@@ -1,0 +1,10 @@
+
+            function __init(self:string):integer;
+            begin
+                For abcdefghijklm:=0downto 100DO print(abcdefghijklm div 10);
+                wHiLe(TrUe aNd FaLsE)dO
+                BeGin
+                    For x:=-100tO-----2Do pRiNt("Chorong so cute");         {How do you feel?}
+                EnD
+            end
+        

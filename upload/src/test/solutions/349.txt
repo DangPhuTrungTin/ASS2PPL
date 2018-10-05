@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(Factorial),[VarDecl(Id(n),IntType)],IntType,[],[If(BinaryOp(=,Id(n),IntLiteral(1)),[Return(Some(IntLiteral(1)))],[]),Return(Some(BinaryOp(*,Id(n),CallExpr(Id(Factorial),[BinaryOp(-,Id(n),IntLiteral(1))]))))])])

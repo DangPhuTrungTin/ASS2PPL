@@ -1,0 +1,16 @@
+
+        Function findMin(arr: array [0 .. 100] of real):real;
+        var j:integer; Min:real;
+        begin
+            if len(arr) = 0 Then return -1;
+            Min := arr[0];
+            j := 1;
+            WHILE j < len(arr) DO
+            begin
+                if arr[j] < Min then
+                    Min := arr[j];
+                j := j + 1;
+            end
+            return Min;
+        end
+        

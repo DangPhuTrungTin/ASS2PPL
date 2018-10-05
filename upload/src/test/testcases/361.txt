@@ -1,0 +1,7 @@
+
+            procedure main();
+            begin
+                IloveU("Park Chorong", "Apink", 1991, 3, 3, "Korea");               //Print I love you Park Chorong ...
+                IhateU("BTS", "Korea");                                             {Print I hate you BTS from Korea}
+            end
+        

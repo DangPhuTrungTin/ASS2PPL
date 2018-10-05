@@ -1,0 +1,4 @@
+
+            PROCEDURE chorong(x,y,z:integer;m,n:real);
+            begin end
+        

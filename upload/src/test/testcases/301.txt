@@ -1,0 +1,8 @@
+
+            VAR luan, chorong: string;
+                age, grade, _year, __init__: integer;
+                a1, a2, a3, a4, a5: array [1 .. 222222] of integer;
+                ______, ___, __, _: real;
+                LUANLUAN, RONGRONG: array [1 .. 1] of boolean;
+            (*************) {fgfgfgfgfg(**)}
+        

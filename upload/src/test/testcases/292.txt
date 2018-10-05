@@ -1,0 +1,5 @@
+
+procedure foo();
+begin
+    if a = 1 then if b=1 then return; else continue; else continue;
+end

@@ -1,0 +1,9 @@
+
+            Function abc(abc:integer;xyz:string):string;
+            begin
+                a := b;
+                b := c;
+                if a > b then x := x + 1; else y := y + 1;
+                print(x);
+            end
+        

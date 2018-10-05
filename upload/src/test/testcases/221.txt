@@ -1,0 +1,6 @@
+
+        var a, b, c: boolean;
+        //comment in this line
+        m,n: real ;
+        p,q: array[0 .. 5] of boolean ;
+        

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(pow),[VarDecl(Id(x),IntType),VarDecl(Id(y),IntType)],IntType,[VarDecl(Id(P),IntType)],[AssignStmt(Id(P),IntLiteral(1)),For(Id(i)IntLiteral(1),Id(y),True,[AssignStmt(Id(P),BinaryOp(*,Id(P),Id(x)))]),Return(Some(Id(P)))])])

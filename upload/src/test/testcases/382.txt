@@ -1,0 +1,6 @@
+
+            function all(x: array[0 .. 100] of boolean):boolean;
+            begin
+                return not any(x);
+            end
+        

@@ -1,0 +1,9 @@
+
+            function checkBKString(s:string):boolean;
+            begin
+                for i := 0 to len(s) - 1 do
+                    if s[i] = "." then
+                        return true;
+                return false;
+            end
+        

@@ -1,0 +1,7 @@
+
+            VAR age, weight: integer;
+                height: real;
+                name: string;
+            procedure p(a:array [0 .. 0] of integer;b:array [1 .. -1] of real);
+            begin end
+        

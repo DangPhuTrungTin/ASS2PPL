@@ -1,0 +1,8 @@
+
+            function checkLuanNumber(n: integer):boolean;
+            var dd : integer;
+            begin
+                dd := n mod 100;
+                return (dd = 16) or (dd = 11);
+            end
+        

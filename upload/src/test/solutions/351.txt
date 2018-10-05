@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(Fibo),[VarDecl(Id(n),IntType)],IntType,[],[If(BinaryOp(=,Id(n),IntLiteral(0)),[Return(Some(IntLiteral(0)))],[]),If(BinaryOp(=,Id(n),IntLiteral(1)),[Return(Some(IntLiteral(1)))],[]),Return(Some(BinaryOp(+,CallExpr(Id(Fibo),[BinaryOp(-,Id(n),IntLiteral(1))]),CallExpr(Id(Fibo),[BinaryOp(-,Id(n),IntLiteral(2))]))))])])

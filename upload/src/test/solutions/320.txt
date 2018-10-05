@@ -1,0 +1,1 @@
+Program([VarDecl(Id(x),ArrayType(0,-1,StringType)),VarDecl(Id(y),ArrayType(0,-1,StringType)),VarDecl(Id(z),ArrayType(0,-1,StringType)),FuncDecl(Id(forwhileifelse),[],VoidType(),[],[For(Id(abcdefghijklm)IntLiteral(0),IntLiteral(100),True,[CallStmt(Id(print),[Id(abcdefghijklm)])])])])

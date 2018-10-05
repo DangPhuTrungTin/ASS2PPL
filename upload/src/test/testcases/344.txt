@@ -1,0 +1,6 @@
+
+            function lcm(a,b:integer):integer;
+            begin
+                return a * b div gcd(a, b);
+            end
+        

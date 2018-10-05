@@ -1,0 +1,6 @@
+function foo(c: string;c: string):boolean ;
+                   var x,y: real ;
+                   BEGIN
+                    foo(foo(3),m(2),a[3]);
+                    c := a[12] ;
+                   END

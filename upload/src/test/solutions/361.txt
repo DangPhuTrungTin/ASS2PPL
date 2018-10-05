@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main),[],VoidType(),[],[CallStmt(Id(IloveU),[StringLiteral(Park Chorong),StringLiteral(Apink),IntLiteral(1991),IntLiteral(3),IntLiteral(3),StringLiteral(Korea)]),CallStmt(Id(IhateU),[StringLiteral(BTS),StringLiteral(Korea)])])])

@@ -1,0 +1,14 @@
+
+            procedure main();
+            begin
+                print("Worlds Champions:\n");
+                print("FNC\n");
+                print("TPA\n");
+                print("SKT\n");
+                print("SSW\n");
+                print("SKT\n");
+                print("SKT\n");
+                print("SSG\n");
+                print("? 2018\n");
+            end
+        

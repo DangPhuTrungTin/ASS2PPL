@@ -1,0 +1,10 @@
+
+            function __repr__(object:integer):string;
+            var abc: array [1 .. 5] of integer;
+            begin
+                str := __repr__(object);
+                list := split(upperCase(str));
+                result := join("____", list);
+                return result;
+            end
+        

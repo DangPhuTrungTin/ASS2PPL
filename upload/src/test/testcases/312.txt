@@ -1,0 +1,15 @@
+
+            function long(long:integer;veryLong:real):boolean;
+            begin
+                x := y;
+                y := 1;
+                z[y + 1] := "Python";
+                v[v[x]] := "Python\nC++\nJava\nScala";
+                if (m = n) or x = y then 
+                    q := p := r := 1;
+                if x <> 2 then x := x + 2; else 
+                    y := x[1] := x + y;
+                if (1) then
+                    return 0;
+            end
+        

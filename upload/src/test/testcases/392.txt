@@ -1,0 +1,15 @@
+
+            function checkChorongString(s:string):boolean;
+            var numUpper, numLower: integer;
+            begin
+                numUpper := numLower := 0;
+                for i := 0 to len(s) - 1 do
+                begin
+                    if (s[i] >= "a") and (s[i] <= "z") then
+                        numLower := numLower + 1;
+                    if (s[i] >= "A") and (s[i] <= "Z") then
+                        numUpper := numUpper + 1; 
+                end
+                return numUpper = numLower;
+            end
+        

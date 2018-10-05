@@ -1,0 +1,1 @@
+Program([VarDecl(Id(___),FloatType),VarDecl(Id(b),FloatType),VarDecl(Id(c),FloatType),VarDecl(Id(d),FloatType),VarDecl(Id(e1111111111),StringType),VarDecl(Id(_aBBBB),BoolType),VarDecl(Id(__str__),ArrayType(-1,-1111,StringType)),VarDecl(Id(skt),StringType),VarDecl(Id(kt),StringType),VarDecl(Id(kz),StringType),VarDecl(Id(genG),StringType),VarDecl(Id(griffin),StringType)])

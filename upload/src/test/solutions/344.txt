@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(lcm),[VarDecl(Id(a),IntType),VarDecl(Id(b),IntType)],IntType,[],[Return(Some(BinaryOp(div,BinaryOp(*,Id(a),Id(b)),CallExpr(Id(gcd),[Id(a),Id(b)]))))])])

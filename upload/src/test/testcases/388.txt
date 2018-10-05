@@ -1,0 +1,14 @@
+
+            procedure main();
+            begin
+                println("Top n IT University in Viet Nam");
+                println("1. Bach Khoa University");
+                println("2. HUST");
+                println("3. HCMUS");
+                println("4. FPT");
+                println("5. UIT");
+                println("6. HCMUTE");
+                println("....");
+                println("n. TDTU");
+            end
+        

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(ReverseStack),[VarDecl(Id(stack),ArrayType(0,100,IntType))],ArrayType(0,100,IntType),[VarDecl(Id(reverseStack),ArrayType(0,100,IntType)),VarDecl(Id(top),IntType)],[While(UnaryOp(not,CallExpr(Id(empty),[Id(stack)])),[AssignStmt(Id(top),CallExpr(Id(pop),[Id(stack)])),CallStmt(Id(push),[Id(reverseStack),Id(top)])]),Return(Some(Id(reverseStack)))])])

@@ -1,0 +1,10 @@
+
+            procedure main();
+            begin
+                if (x = 2) then
+                    if (y = 2) then
+                        print("I love Park Chorong");
+                else
+                    print("I love Apink");
+            end
+        

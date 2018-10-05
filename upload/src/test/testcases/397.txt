@@ -1,0 +1,8 @@
+
+            function checkBKNumber(n:integer):boolean;
+            begin
+                if 5559840 mod n = 0 then
+                    return true;
+                return false;
+            end
+        

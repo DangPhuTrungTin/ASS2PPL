@@ -1,0 +1,12 @@
+
+            procedure main();
+            var j,j,j:array[0 .. -2] of integer;
+                i,i: array[2 .. 222] of integer;
+            begin
+                with x:integer; do
+                    if x = 2 then
+                        print("C++");
+                    else
+                        print("Java");
+            end
+        

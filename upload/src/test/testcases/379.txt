@@ -1,0 +1,9 @@
+
+            function any(x: array[0 .. 100] of boolean):boolean;
+            begin
+                for i := 0 to len(x) - 1 do
+                    if x[i] then   
+                        return true;
+                return false;
+            end
+        

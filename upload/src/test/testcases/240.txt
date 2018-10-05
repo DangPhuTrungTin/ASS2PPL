@@ -1,0 +1,3 @@
+function foo(c: real;a:array [1 .. 1] of string):string ;
+                    begin return; end
+                

@@ -1,0 +1,13 @@
+
+            (*Using recursion*)
+            function CountLessThan10(x: array [0 ..100] of integer):integer;
+            var subArr: array[0 .. 100] of integer;
+            begin
+                if len(x) = 0 then
+                    return 0;
+                subArr := subArray(x, 1);
+                if x[0] < 10 then
+                    return 1 + CountLessThan10(subArr);
+                return CountLessThan10(subArr);
+            end
+        

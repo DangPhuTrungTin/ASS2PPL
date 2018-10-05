@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(checkLuanNumber),[VarDecl(Id(n),IntType)],BoolType,[VarDecl(Id(dd),IntType)],[AssignStmt(Id(dd),BinaryOp(mod,Id(n),IntLiteral(100))),Return(Some(BinaryOp(or,BinaryOp(=,Id(dd),IntLiteral(16)),BinaryOp(=,Id(dd),IntLiteral(11)))))])])

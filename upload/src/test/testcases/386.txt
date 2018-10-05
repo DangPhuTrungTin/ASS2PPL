@@ -1,0 +1,15 @@
+
+            procedure main();
+            begin
+                print("Programming language:\n");
+                print("Pascal ");
+                print("C ");
+                print("C++ ");
+                print("C# ");
+                print("Java ");
+                print("Python ");
+                print("HTML ");
+                print("CSS ");
+                print("Javascript ");
+            end
+        

@@ -1,0 +1,3 @@
+FUNCtion foo(c: real;bo:boolean):real ;
+                   var x,y: real ;
+                    BEGIN continue;enD

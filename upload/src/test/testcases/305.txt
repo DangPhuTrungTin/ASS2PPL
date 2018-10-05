@@ -1,0 +1,5 @@
+
+            funcTION my_function(x,y:integer):array [1 .. 100] of integer;
+            begin
+            eNd
+        

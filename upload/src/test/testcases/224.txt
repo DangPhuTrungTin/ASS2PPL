@@ -1,0 +1,5 @@
+proCeduRe foo(c: real) ;
+                   BEGIN
+                    a := 1;
+                    c := a[0] ;
+                   END

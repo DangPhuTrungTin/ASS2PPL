@@ -1,0 +1,17 @@
+
+            function toString(n: integer):string;
+            var d: integer;
+                res, digit: string;
+            begin
+                res := "";
+                if n = 0 then return "0";
+                while n > 0 do
+                begin
+                    d := n mod 10;
+                    digit := "0" + d;
+                    res := digit + res;
+                    n := n div 10;
+                end
+                return res;
+            end
+        

@@ -1,0 +1,13 @@
+
+            procedure main();
+            begin
+                print("Windows versions:\n");
+                print("Windows 95\n");
+                print("Windows 98\n");
+                print("Windows XP\n");
+                print("Windows 7\n");
+                print("Windows Vista\n");
+                print("Windows 8.1\n");
+                print("Windows 10\n");
+            end
+        

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(checkChorongNumber),[VarDecl(Id(n),IntType)],BoolType,[],[If(BinaryOp(or,BinaryOp(=,BinaryOp(mod,Id(n),IntLiteral(7)),IntLiteral(0)),BinaryOp(=,BinaryOp(mod,Id(n),IntLiteral(11)),IntLiteral(0))),[Return(Some(BooleanLiteral(True)))],[]),Return(Some(BooleanLiteral(False)))])])

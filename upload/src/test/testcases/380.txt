@@ -1,0 +1,9 @@
+
+            function all(x: array[0 .. 100] of boolean):boolean;
+            begin
+                for i := 0 to len(x) - 1 do
+                    if not x[i] then
+                        return false;
+                return true;
+            end
+        

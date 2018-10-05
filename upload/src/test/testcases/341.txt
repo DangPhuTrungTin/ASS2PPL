@@ -1,0 +1,24 @@
+
+        procedure GetInfo();
+        var name,university:string;
+            age:integer;
+            sex:boolean;
+        begin
+            ConsoleWrite("Enter your name: ");
+            name := ReadLine();
+            ConsoleWrite("Enter your present university: ");
+            university := ReadLine();
+            ConsoleWrite("Enter your age: ");
+            age := ParseInt(Readline());
+            ConsoleWrite("Enter your sex: ");
+            sex := Readline() = "Nam";
+            ConsoleWriteLine("Your information: ");
+            ConsoleWriteLine("Name: " + name);
+            ConsoleWriteLine("Univer: " + university);
+            ConsoleWriteLine("Age: " + toString(age));
+            if sex then
+                ConsoleWriteLine("Sex: Male");
+            else
+                ConsoleWriteLien("Sex: Female");
+        end
+        

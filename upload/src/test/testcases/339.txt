@@ -1,0 +1,15 @@
+
+        function Palindrome(str:string):string;
+        var palindStr : string; n, t: integer;
+        begin
+            palindStr := str;
+            n := len(str);
+            for i := 0 to n div 2 - 1 do
+            begin
+                t := palindStr[n - 1- i];
+                palindStr[n - 1 - i] := palindStr[i];
+                palindStr[i] := t;
+            end
+            return palindStr;
+        end
+        

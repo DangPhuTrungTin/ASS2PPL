@@ -1,0 +1,9 @@
+
+            var a:integer;
+            var a:integer;
+            var a:integer;
+            var a:integer;
+            var a:integer;
+            var a:integer;
+            var a:integer;
+        

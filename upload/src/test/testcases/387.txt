@@ -1,0 +1,15 @@
+
+            procedure main();
+            begin
+                print("Top 10 football players:\n");
+                println("Cristiano Ronaldo/Lionel Messi");
+                println("Neymar Jr");
+                println("Luka Modric");
+                println("Kevin De Bryne");
+                println("Toni Kroos");
+                println("Eden Hazard");
+                println("N\'Golo Kante");
+                println("Paul Pogba");
+                println("Luis Suarez");
+            end
+        

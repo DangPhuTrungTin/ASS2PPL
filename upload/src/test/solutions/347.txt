@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(CountLessThan10),[VarDecl(Id(x),ArrayType(0,100,IntType))],IntType,[VarDecl(Id(num),IntType)],[AssignStmt(Id(num),IntLiteral(0)),For(Id(i)IntLiteral(0),BinaryOp(-,CallExpr(Id(len),[Id(x)]),IntLiteral(1)),True,[If(BinaryOp(<,ArrayCell(Id(x),Id(i)),IntLiteral(10)),[AssignStmt(Id(num),BinaryOp(+,Id(num),IntLiteral(1)))],[])]),Return(Some(Id(num)))])])

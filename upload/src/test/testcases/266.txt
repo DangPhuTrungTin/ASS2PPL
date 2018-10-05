@@ -1,0 +1,10 @@
+
+procedure foo();
+begin
+    ok();
+    break;
+    continue;
+    begin
+        return 15 * 6 - 3;
+    end
+end

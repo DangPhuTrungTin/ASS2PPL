@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(f),[],ArrayType(0,1,IntType),[],[If(BinaryOp(and,BinaryOp(<>,Id(m),Id(n)),BinaryOp(<>,Id(x),Id(y))),[CallStmt(Id(print),[BinaryOp(+,Id(x),IntLiteral(1)),BinaryOp(+,Id(y),IntLiteral(2))])],[CallStmt(Id(Chat),[StringLiteral(Park Chorong)])])])])

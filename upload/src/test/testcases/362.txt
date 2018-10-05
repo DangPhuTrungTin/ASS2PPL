@@ -1,0 +1,8 @@
+
+            function CSC(initial, n, d: integer):integer;
+            begin
+                if n = 1 then
+                    return initial;
+                return CSC(initial, n - 1, d) + d;
+            end
+        

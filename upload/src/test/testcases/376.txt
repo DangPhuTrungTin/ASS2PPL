@@ -1,0 +1,6 @@
+
+            function lastDigit(n: integer):integer;
+            begin
+                return n mod 10;
+            end
+        

@@ -1,0 +1,3 @@
+proCeduRe foo(c: real) ;
+                   var x,y: real ;
+                    begin break; end

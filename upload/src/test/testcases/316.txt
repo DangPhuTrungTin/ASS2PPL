@@ -1,0 +1,8 @@
+
+        procedure ___(___:integer);
+        begin
+            while not NOT Not NOt true do
+                a := b := c * 1611;
+            {A simple while statement above}
+        end
+        

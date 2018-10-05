@@ -1,0 +1,5 @@
+
+procedure foo();
+begin
+    a := (b+5*6)[d] := 5;
+end

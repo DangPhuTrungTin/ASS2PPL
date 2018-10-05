@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo),[VarDecl(Id(c),FloatType)],BoolType,[VarDecl(Id(x),FloatType),VarDecl(Id(y),FloatType)],[With([VarDecl(Id(a),IntType),VarDecl(Id(b),IntType),VarDecl(Id(c),ArrayType(1,2,FloatType))],[AssignStmt(Id(c),ArrayCell(Id(a),IntLiteral(12)))])])])

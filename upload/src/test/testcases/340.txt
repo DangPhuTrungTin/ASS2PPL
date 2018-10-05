@@ -1,0 +1,10 @@
+
+        procedure Double(matrix: array[0 .. 100] of integer);
+        begin
+            For i := 0 to len(matrix) - 1 do
+            begin
+                For j := 0 to len(matrix[i]) - 1 do
+                    matrix[i][j] := matrix[i][j] * 2;
+            end
+        end
+        

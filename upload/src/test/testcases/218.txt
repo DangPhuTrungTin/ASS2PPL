@@ -1,0 +1,8 @@
+
+        var a, b, c: boolean;
+        m,n: real ;
+        p,q: array[0 .. 218] of real ;
+        VAR Tin, Dang, Trung: array[-219 .. 5] of boolean;
+        m,n: array[-10 .. -5] of real ;
+        p,q: array[10 .. 5] of integer ;
+        

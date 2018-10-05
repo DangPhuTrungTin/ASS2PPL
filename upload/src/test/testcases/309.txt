@@ -1,0 +1,11 @@
+
+        //My program ######---------$$$$$$$
+        //Let's go!
+        procedure abc(x,y:integer;z:array[0 ..-0] of real;__:boolean);
+        Begin End
+        function abc(m,n,p,q,r,s,t,u,v,w,x,y,z:array [0 .. 2] of string):boolean;
+        Begin End
+        function None():string;
+        begin end
+        var a: real;
+        

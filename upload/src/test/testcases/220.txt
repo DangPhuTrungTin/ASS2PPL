@@ -1,0 +1,5 @@
+
+        var a, b, c: boolean;//hello
+        m,n: real ;(*test*)
+        p,q: array[0 .. 5] of boolean ;{declare}
+        

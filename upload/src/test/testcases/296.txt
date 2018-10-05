@@ -1,0 +1,6 @@
+proCeduRe foo(c: real) ;
+                   var x,y: real ;
+                   beGIN
+                   whilE(1<1) do
+                   continue; end
+                    

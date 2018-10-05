@@ -1,0 +1,11 @@
+
+            procedure main();
+            begin
+                {
+                    Console.WriteLine("Hello World");
+                    String x = ReadLine();
+                    String y = "is the best";
+                    Console.WriteLine("CSE Bach Khoa University " + y + ", no matter what you say :)");
+                }
+            end
+        

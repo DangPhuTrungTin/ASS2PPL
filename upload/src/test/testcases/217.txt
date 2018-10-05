@@ -1,0 +1,5 @@
+
+        var Tin, Dang, Trung: integer;
+        m,n: real ;
+        p,q: array[0 .. 5] of boolean ;
+        

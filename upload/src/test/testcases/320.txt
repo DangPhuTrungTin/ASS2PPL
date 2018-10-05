@@ -1,0 +1,7 @@
+
+        var x,y,z: array [0 ..-1] of string;
+        procedure forwhileifelse();
+        begin
+            for abcdefghijklm := 0 to 100 do print(abcdefghijklm);
+        end
+        

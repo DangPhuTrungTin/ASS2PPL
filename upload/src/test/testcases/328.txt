@@ -1,0 +1,14 @@
+
+            var _var,__var,___var: array [1 ..-2] of boolean;
+            function PPL(int,float,char:string):array [0 .. 4] of integer;
+            begin
+                x := y := z := 1;
+                if (x < 10) and not false then
+                begin
+                    if (x > 0) and not not not - 1611931 then
+                        print(x * 3);
+                    continue;
+                end
+                continue; CONTINUE;
+            end
+        

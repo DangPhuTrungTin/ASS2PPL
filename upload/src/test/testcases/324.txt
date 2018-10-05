@@ -1,0 +1,27 @@
+
+        var abcd, efgh: array[1 ..0] of integer;
+            xyzt, mnpq: array[1 ..1] of real;
+        procedure __();
+        var abcd, efgh: string;
+            xyzt, mnpq: boolean;
+        begin
+            x := 1;
+            y := 2;
+            while (x < 10) do
+            begin
+                for i := 0 to x - 1 do
+                    y := y + 1;
+                x := x + 1;
+            end
+            if y > 20 then
+                y := y div 20;
+            else
+                y := y mod 20 + 2 * 3 + 4 - 5;
+            print("Chorong Apink");
+            return;
+        end
+        function __():real;
+        var xyzt, efgh, mnpq, abcd: real;
+        begin
+        end
+        

@@ -1,0 +1,10 @@
+
+            function ___():real;
+            begin
+                while false and (x + 1 = 2) do
+                    x := len(___);
+                while ------2 do
+                    y[y + 1] := sort(tuple(1,2,3));
+                {return 0;}
+            end
+        

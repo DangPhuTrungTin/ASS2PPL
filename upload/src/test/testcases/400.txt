@@ -1,0 +1,7 @@
+function foo(c: real):boolean ;
+                   var x,y: real ;
+                   BEGIN
+                    with a,b:integer;c:array [1 .. 2] of real;do
+                    c := a[12] ;
+                   END
+                

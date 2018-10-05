@@ -1,0 +1,8 @@
+
+            function checkApinkNumber(n: integer):boolean;
+            var s:string;
+            begin
+                s := toString(n);
+                return palindrome(s);
+            end
+        

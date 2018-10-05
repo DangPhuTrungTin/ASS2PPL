@@ -1,0 +1,10 @@
+
+            function pow(x, y: integer):integer;
+            var P: integer;
+            begin
+                P := 1;
+                for i := 1 to y do
+                    P := P * x;
+                return P;
+            end
+        

@@ -1,0 +1,5 @@
+function foo(c: array[-235 .. 1] of real):real ;
+                   BEGIN
+                    a := 1;
+                    c := a[0] ;
+                   END

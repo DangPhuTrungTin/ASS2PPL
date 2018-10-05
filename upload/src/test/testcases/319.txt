@@ -1,0 +1,21 @@
+
+            PROCEDURE MAIN();
+            begin
+                x := y := 0;
+                While (x < 100) Do
+                begin
+                    if x <= y then          //If statement with compound body
+                    begin
+                        x := x + 1;
+                        y := y - 1;
+                    end
+                    else
+                    begin
+                        x := x - 1;
+                        y := y + 1;
+                    end
+                end
+                WHILE False DO
+                    print("I love Chorong Park");
+            end
+        

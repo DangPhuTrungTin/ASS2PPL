@@ -1,0 +1,15 @@
+
+            function isPrime(num:integer):boolean;
+            begin
+                if num < 2 then
+                    return False;
+                if num = 2 then
+                    return True;
+                For i := 2 To num - 1 do
+                begin
+                    if num mod i = 0 then
+                        return false;
+                end
+                return true;
+            end
+        

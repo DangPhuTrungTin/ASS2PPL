@@ -1,0 +1,6 @@
+proCeduRe foo(c: real) ;
+                   var x,y: real ;
+                   beGIN
+                   whilE(a) do
+                   continue; end
+                    

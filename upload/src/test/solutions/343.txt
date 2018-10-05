@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(gcd),[VarDecl(Id(a),IntType),VarDecl(Id(b),IntType)],IntType,[VarDecl(Id(r),IntType)],[If(BinaryOp(<,Id(a),Id(b)),[CallStmt(Id(swap),[Id(a),Id(b)])],[]),If(BinaryOp(=,Id(b),IntLiteral(0)),[Return(Some(Id(a)))],[]),AssignStmt(Id(r),BinaryOp(mod,Id(a),Id(b))),Return(Some(CallExpr(Id(gcd),[Id(b),Id(r)])))])])

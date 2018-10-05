@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(Sum),[VarDecl(Id(x),ArrayType(0,100,FloatType))],FloatType,[VarDecl(Id(Sum),FloatType)],[For(Id(i)IntLiteral(0),BinaryOp(-,CallExpr(Id(len),[Id(arr)]),IntLiteral(1)),True,[AssignStmt(Id(Sum),BinaryOp(+,Id(Sum),ArrayCell(Id(x),Id(i))))]),Return(Some(Id(Sum)))])])

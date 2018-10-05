@@ -1,0 +1,6 @@
+
+            function Mul(a, b: integer):integer;
+            begin
+                return a * b * 1 * 1;
+            end
+        

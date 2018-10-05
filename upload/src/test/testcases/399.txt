@@ -1,0 +1,6 @@
+
+            function checkQuynhNhuNumber(n: integer):boolean;
+            begin
+                return not checkLuanNumber(n);
+            end
+        

@@ -1,0 +1,14 @@
+
+            function main():integer;
+            begin
+                {
+                    srand(time(0));
+                    println("Hello world\n");
+                    int *p = (int*)malloc(4 * sizeof(int));
+                    for (i = 0; i < 4; ++i)
+                        p[i] = rand();
+                    free(p);
+                    p = NULL;
+                }
+            end
+        

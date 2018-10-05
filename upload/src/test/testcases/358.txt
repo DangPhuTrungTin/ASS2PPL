@@ -1,0 +1,13 @@
+
+            function toInt(str: string):integer;
+            var int, d:integer;
+            begin
+                int := 0;
+                for i := 0 to len(str) - 1 do
+                begin
+                    d := str[i] - char(0);
+                    int := int * 10 + d;
+                end
+                return int;
+            end
+        

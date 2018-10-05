@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(checkApinkNumber),[VarDecl(Id(n),IntType)],BoolType,[VarDecl(Id(s),StringType)],[AssignStmt(Id(s),CallExpr(Id(toString),[Id(n)])),Return(Some(CallExpr(Id(palindrome),[Id(s)])))])])

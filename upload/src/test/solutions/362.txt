@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(CSC),[VarDecl(Id(initial),IntType),VarDecl(Id(n),IntType),VarDecl(Id(d),IntType)],IntType,[],[If(BinaryOp(=,Id(n),IntLiteral(1)),[Return(Some(Id(initial)))],[]),Return(Some(BinaryOp(+,CallExpr(Id(CSC),[Id(initial),BinaryOp(-,Id(n),IntLiteral(1)),Id(d)]),Id(d))))])])

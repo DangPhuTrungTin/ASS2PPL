@@ -1,0 +1,8 @@
+
+        VaR ___ : real;
+            b,c,d:              real;
+            e1111111111:                    string;
+        vAR _aBBBB:         boolean;
+            __str__:                        array [-1 ..-1111] of string;                   //Do you feel bad?
+        VAr skt, kt, kz, genG, griffin: STRING;             {LCK Champions}
+        

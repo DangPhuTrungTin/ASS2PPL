@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(lastDigit),[VarDecl(Id(n),IntType)],IntType,[],[Return(Some(BinaryOp(mod,Id(n),IntLiteral(10))))])])

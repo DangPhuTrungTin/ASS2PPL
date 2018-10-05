@@ -1,0 +1,12 @@
+
+procedure foo();
+begin
+    a := "hello foo() \n.This is test"; // comment here
+    { this is also comment
+        if a = 1 then goto(4) 
+        }
+    for i:=1 to 10 do begin {
+        if True then True()
+    }
+    end
+end

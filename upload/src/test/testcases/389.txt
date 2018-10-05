@@ -1,0 +1,9 @@
+
+            function hash(value:string):integer;
+            begin
+                if value < "abcdefgh" then
+                    return rand() div 23;
+                else
+                    return rand() div 29;
+            end
+        

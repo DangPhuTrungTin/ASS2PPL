@@ -1,0 +1,14 @@
+
+            function pow(x, y: integer):integer;
+            var n: integer;
+            begin
+                if y = 0 then return 1;
+                if y = 1 then return x;
+
+                n := pow(x, y div 2);
+                if y mod 2 = 0 then
+                    return n * n;
+                else
+                    return n * n * x;
+            end
+        

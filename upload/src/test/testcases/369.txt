@@ -1,0 +1,20 @@
+
+            procedure main();
+            begin
+                {
+                    <!DOCTYPE html>
+                        <html>
+                            <head>
+                                <link rel="stylesheet" href="style.css">
+                                <title>My first website!</title>
+                            </head>
+                            <body>
+                                <div class='chorong'>
+                                    <h1>I love Park Chorong </h1>
+                                </div>
+                            </body>
+                        </html>
+                    </hmtl>
+                }
+            end
+        

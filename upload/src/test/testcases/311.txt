@@ -1,0 +1,10 @@
+
+            function f():array [0 ..1] of integer;
+            begin
+                if (m <> n) and (x <> y) then
+                    print(x + 1, y + 2);
+                else
+                    Chat("Park Chorong");
+                (*Park Chorong - Apink*)
+            end
+        

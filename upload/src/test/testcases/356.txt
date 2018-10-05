@@ -1,0 +1,21 @@
+
+        procedure main();
+        begin
+            x[x[1]] := "abc"["123"][123][1.45] := 0;
+            if x[1][2][3] then
+                print("Park Chorong so cute!!!!");
+            else
+                print("Kim Yerim so cute!!!!");
+            say("Nguyen Trong Luan");
+            while x do
+                x := x + 1;
+            for i := 0 downto -100 do
+                print(i);
+            break;  continue;  
+            with a,b:integer;c,d:real; do
+            begin
+                print(a + " " + b);
+                print(c + " " + d);
+            end
+        end
+        

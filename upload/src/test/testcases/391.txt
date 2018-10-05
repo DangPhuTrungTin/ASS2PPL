@@ -1,0 +1,15 @@
+
+            (*abcdefghij
+                klmnopqrst
+                    uvwxyz*)
+            {
+                Park Chorong so cute!!!!!!!!!
+                I love Park Chorong;
+            }
+            var abc:integer;                //Declare a variable
+            {
+                Nguyen Trong Luan is handsome!!!!!
+                He is a beautiful and strong boy!
+                Many girls love him!
+            }
+        

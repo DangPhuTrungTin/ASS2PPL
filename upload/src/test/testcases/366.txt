@@ -1,0 +1,14 @@
+
+            procedure main();
+            begin
+                {
+                    System.out.println("Hello world");
+                    Scanner s = new Scanner(System.in);
+                    System.out.print("Enter t: ");
+                    int t = s.nextInt();
+                    t = t * 2 * 100 % 9 - 1;
+                    t++;
+                    System.out.println("Alter t: " + t);
+                }
+            end
+        

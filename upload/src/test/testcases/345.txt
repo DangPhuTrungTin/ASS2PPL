@@ -1,0 +1,14 @@
+
+            //Suppose parameter doesn't change after function call
+            function ReverseStack(stack: array[0 .. 100] of integer):array [0 .. 100] of integer;
+            var reverseStack: array[0 .. 100] of integer;
+                top : integer;
+            begin
+                while (not empty(stack)) do
+                begin
+                    top := pop(stack);
+                    push(reverseStack, top);
+                end
+                return reverseStack;
+            end
+        

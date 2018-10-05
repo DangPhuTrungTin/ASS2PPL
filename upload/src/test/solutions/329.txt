@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(__repr__),[VarDecl(Id(object),IntType)],StringType,[VarDecl(Id(abc),ArrayType(1,5,IntType))],[AssignStmt(Id(str),CallExpr(Id(__repr__),[Id(object)])),AssignStmt(Id(list),CallExpr(Id(split),[CallExpr(Id(upperCase),[Id(str)])])),AssignStmt(Id(result),CallExpr(Id(join),[StringLiteral(____),Id(list)])),Return(Some(Id(result)))])])

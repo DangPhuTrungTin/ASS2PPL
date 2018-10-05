@@ -1,0 +1,7 @@
+function foo(c: real):real ;
+                   var x,y: real ;
+                   BEGIN
+                    if a then if a then begin end else begin end
+                    c := a[12] ;
+                    return 1.0;
+                   END

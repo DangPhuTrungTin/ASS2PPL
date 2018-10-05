@@ -1,0 +1,9 @@
+
+        function Sum(x: array [0 .. 100] of real):real;
+        var Sum: real;
+        begin
+            for i := 0 to len(arr) - 1 do
+                Sum := Sum + x[i];
+            return Sum;
+        end
+        

@@ -1,0 +1,13 @@
+
+            function main():integer;
+            begin
+                {
+                    cout << "Hello world" << endl;
+                    int a;
+                    cout << "Enter a: ";
+                    cin >> a;
+                    cout << "You entered " << a << endl;
+                    cout << "Goodbye!" << endl;
+                }
+            end
+        

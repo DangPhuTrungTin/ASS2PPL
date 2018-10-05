@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(all),[VarDecl(Id(x),ArrayType(0,100,BoolType))],BoolType,[],[For(Id(i)IntLiteral(0),BinaryOp(-,CallExpr(Id(len),[Id(x)]),IntLiteral(1)),True,[If(UnaryOp(not,ArrayCell(Id(x),Id(i))),[Return(Some(BooleanLiteral(False)))],[])]),Return(Some(BooleanLiteral(True)))])])

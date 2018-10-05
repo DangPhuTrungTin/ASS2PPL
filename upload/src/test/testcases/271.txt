@@ -1,0 +1,6 @@
+
+            procedure foo();
+                begin
+                (*hellocmm*)    a := TRUE and then -2 ;
+                end
+                

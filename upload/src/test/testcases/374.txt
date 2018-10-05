@@ -1,0 +1,7 @@
+
+            function Sub(a, b: integer):integer;
+            begin
+                (*The simplest program ever*)
+                return a - b;
+            end
+        

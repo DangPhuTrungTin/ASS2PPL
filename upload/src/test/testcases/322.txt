@@ -1,0 +1,8 @@
+
+            function ___(___:integer):real;
+            var x,y:integer;
+                z:string;
+                t:array[0 .. 0] of real;
+            begin
+            end
+        

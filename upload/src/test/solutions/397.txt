@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(checkBKNumber),[VarDecl(Id(n),IntType)],BoolType,[],[If(BinaryOp(=,BinaryOp(mod,IntLiteral(5559840),Id(n)),IntLiteral(0)),[Return(Some(BooleanLiteral(True)))],[]),Return(Some(BooleanLiteral(False)))])])

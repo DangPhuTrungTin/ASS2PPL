@@ -1,0 +1,8 @@
+
+            function checkChorongNumber(n: integer):boolean;
+            begin
+                if (n mod 7 = 0) or (n mod 11 = 0) then
+                    return true;
+                return false;
+            end
+        

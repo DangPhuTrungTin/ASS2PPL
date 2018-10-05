@@ -1,0 +1,13 @@
+
+            function copyQueue(queue: array[0 .. 100] of integer): array[0 .. 100] of integer;
+            var copyQ: array[0 .. 100] of integer;
+                head: integer;
+            begin
+                while not empty(queue) do
+                begin
+                    head := dequeue(queue);
+                    enqueue(copyQ, head);
+                end
+                return copyQ;
+            end
+        

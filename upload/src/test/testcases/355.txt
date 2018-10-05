@@ -1,0 +1,12 @@
+
+            function Sum(array1: array [0 .. 100] of integer;matrix2: array [0 .. 100 ] of integer):array [0 .. 100] of integer;
+            var arr: array[0 .. 100] of integer;
+                m: integer;
+            begin
+                m := len(array1);
+                arr := newArray(m);
+                for i:= 0 to m do
+                    arr[i] := array1[i] + array2[i];
+                return arr;
+            end
+        

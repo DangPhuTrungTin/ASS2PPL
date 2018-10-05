@@ -1,0 +1,3 @@
+funCtion foo(c: real):string ;
+                   var x,y: real ;
+                    begin break; end

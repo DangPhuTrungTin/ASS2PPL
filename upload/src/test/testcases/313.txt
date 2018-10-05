@@ -1,0 +1,18 @@
+
+            function max(a,b,c:real):real;
+            begin
+                //Find max of three integers a, b and c
+                max := 0;
+                if a > b then
+                    if a > c then
+                        max := a;
+                    else
+                        max := c;
+                else
+                    if b > c then
+                        max := b;
+                    else
+                        max := c;
+                return double(max);
+            end
+        

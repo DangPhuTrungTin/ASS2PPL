@@ -1,0 +1,10 @@
+
+            function ListCompre(func:string;list:array [0 .. 100] of integer):array [0 .. 100] of integer;
+            begin
+                func := ParseFunction(func);
+                newList := List();                  //Create an empty list
+                for i := 0 to len(list) - 1 do
+                    append(newList, func(list[i]));
+                return newList;
+            end
+        

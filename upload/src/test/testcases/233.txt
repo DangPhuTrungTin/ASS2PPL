@@ -1,0 +1,3 @@
+function foo():integer ;
+                   BEGIN
+                   END

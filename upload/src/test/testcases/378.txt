@@ -1,0 +1,14 @@
+
+            function Zip(x,y:array[0 .. 100] of integer):array[0 .. 100] of integer;
+            var z:array[0 .. 100] of integer;
+                t:array[0 .. 2] of integer;
+            begin
+                if len(x) <> len(y) then throw(Exception());
+                for i := 0 to len(x) do
+                begin
+                    t := tuple(x[i], y[i]);
+                    append(z, t);
+                end
+                return z;
+            end
+        

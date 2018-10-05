@@ -1,0 +1,8 @@
+
+            function CSN(initial, n, q: integer):integer;
+            begin
+                if n = 1 then
+                    return initial;
+                return CSN(initial, n - 1, q) * q;
+            end
+        

@@ -1,0 +1,6 @@
+function foo(c: real):array[1 .. 2] of integer ;
+                   var x,y: real ;begin
+                   whilE(a) do
+                   continue;
+                    end 
+                    

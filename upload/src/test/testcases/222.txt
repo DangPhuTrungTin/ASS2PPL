@@ -1,0 +1,3 @@
+proCeduRe foo() ;
+                   BEGIN
+                   END

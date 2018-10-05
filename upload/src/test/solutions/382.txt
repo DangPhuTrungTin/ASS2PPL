@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(all),[VarDecl(Id(x),ArrayType(0,100,BoolType))],BoolType,[],[Return(Some(UnaryOp(not,CallExpr(Id(any),[Id(x)]))))])])

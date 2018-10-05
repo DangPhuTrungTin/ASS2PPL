@@ -1,0 +1,19 @@
+
+        var Min:integer;
+        procedure FindMin(a,b,c:integer);
+        begin
+            if a < b then if a < c then Min := a; else Min := c; else if b < c then Min := b; else Min := c;
+        end
+        procedure __main__();
+        begin
+            a := b := c := 0;
+            print("Nhap a: ");
+            cin(a);
+            print("Nhap b: ");
+            cin(b);
+            print("Nhap c: ");
+            cin(c);
+            FindMin(a, b, c);
+            print("Min of a, b, c: " + str(Min));
+        end
+        

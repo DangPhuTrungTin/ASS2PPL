@@ -1,0 +1,6 @@
+
+        var a:real;
+{
+    // Line Comment
+    (* Block Comment *)
+}

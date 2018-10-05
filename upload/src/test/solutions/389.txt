@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(hash),[VarDecl(Id(value),StringType)],IntType,[],[If(BinaryOp(<,Id(value),StringLiteral(abcdefgh)),[Return(Some(BinaryOp(div,CallExpr(Id(rand),[]),IntLiteral(23))))],[Return(Some(BinaryOp(div,CallExpr(Id(rand),[]),IntLiteral(29))))])])])

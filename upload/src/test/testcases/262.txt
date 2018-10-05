@@ -1,0 +1,6 @@
+
+procedure foo();
+begin
+    ok();
+    break;
+end

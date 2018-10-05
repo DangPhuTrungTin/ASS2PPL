@@ -1,0 +1,5 @@
+function foo(c: real):string ;
+                   var x,y: real ;
+                   BEGIN
+                    c := a[12]=foo(3) ;
+                   END

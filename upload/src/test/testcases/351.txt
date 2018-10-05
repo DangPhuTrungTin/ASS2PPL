@@ -1,0 +1,10 @@
+
+            function Fibo(n:integer):integer;
+            begin
+                if n = 0 then
+                    return 0;
+                if n = 1 then
+                    return 1;
+                return Fibo(n - 1) + Fibo(n - 2);
+            end
+        

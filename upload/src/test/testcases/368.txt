@@ -1,0 +1,11 @@
+
+            procedure main();
+            begin
+                {
+                    var i;
+                    var divs = document.getElementsByClassName("chorong");
+                    for (i = 0; i < divs.length; ++i)
+                        divs[i].innerHTML = "Python3";
+                }
+            end
+        

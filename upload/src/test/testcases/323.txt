@@ -1,0 +1,6 @@
+
+            procedure ___(__:boolean);
+            VAR chorong,chorong,chorong:string;
+                luan,luan,luan:boolean;
+            begin                       end
+        

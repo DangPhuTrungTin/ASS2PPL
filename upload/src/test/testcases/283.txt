@@ -1,0 +1,8 @@
+function foo(c: real):string ;
+                   var x,y: real ;
+                   BEGIN
+                    for a:={this is my comment}1 to 5 do
+                        begin end
+                    c := a[12] ;
+                    return "hello\n"{hello};
+                   END

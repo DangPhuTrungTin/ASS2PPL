@@ -1,0 +1,12 @@
+
+            function gcd(a, b: integer):integer;
+            var r: integer;
+            begin
+                if a < b then
+                    swap(a, b);
+                //a >= b
+                if b = 0 then return a;
+                r := a mod b;
+                return gcd(b, r);
+            end
+        
